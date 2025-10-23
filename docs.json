@@ -5,64 +5,129 @@
   "colors": {
     "primary": "#0AD9DC",
     "light": "#FFFFFF",
-    "dark": "#122531"
+    "dark": "#122531",
+    "background": {
+      "dark": "#0D1117"
+    }
   },
   "favicon": "/favicon.svg",
+  "modeToggle": {
+    "default": "dark"
+  },
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Documentation",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Introduction",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "introduction"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Fhenix & FHE",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "fhenix-fhe/overview",
+              "fhenix-fhe/fhe-schemes",
+              "fhenix-fhe/connecting",
+              "fhenix-fhe/integration",
+              "fhenix-fhe/threshold-network",
+              "fhenix-fhe/architecture",
+              "fhenix-fhe/changelog",
+              "fhenix-fhe/differences",
+              "fhenix-fhe/limitations"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Setting Up Your Environment",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "setup/overview",
+              "setup/hardhat",
+              "setup/remix",
+              "setup/gitpod",
+              "setup/foundry"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Writing Smart Contracts",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "contracts/fhe-sol",
+              "contracts/types-and-operators",
+              "contracts/user-inputs",
+              "contracts/returning-data",
+              "contracts/permissions",
+              "contracts/converting-types",
+              "contracts/requires",
+              "contracts/select",
+              "contracts/randomness",
+              "contracts/debug-logging",
+              "contracts/gas-benchmarks",
+              "contracts/parallel-decryptions",
+              "contracts/security-zones",
+              "contracts/useful-tips"
+            ]
+          },
+          {
+            "group": "FhenixJS Library",
+            "pages": [
+              "fhenixjs/installation",
+              "fhenixjs/encryption",
+              "fhenixjs/decryption",
+              "fhenixjs/network-keys",
+              "fhenixjs/permits",
+              "fhenixjs/sending-transactions",
+              "fhenixjs/error-handling"
+            ]
+          },
+          {
+            "group": "Encryption & Privacy",
+            "pages": [
+              "encryption/privacy-web3",
+              "encryption/permits-access-control",
+              "encryption/exposed-encrypted-variables"
+            ]
+          },
+          {
+            "group": "Tools & Utilities",
+            "pages": [
+              "tools/hardhat-plugin",
+              "tools/remix-plugin",
+              "tools/encryption-ui"
+            ]
+          },
+          {
+            "group": "Tutorials",
+            "pages": [
+              "tutorials/first-fhe-contract",
+              "tutorials/basic/overview",
+              "tutorials/basic/setting-up",
+              "tutorials/basic/exploring-template",
+              "tutorials/basic/writing-contract",
+              "tutorials/basic/adding-view-functions",
+              "tutorials/basic/testing",
+              "tutorials/basic/deploying"
+            ]
+          },
+          {
+            "group": "Examples & References",
+            "pages": [
+              "examples/fhe-dapps",
+              "examples/templates"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "API Reference",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Solidity API",
             "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "api/fhe",
+              "api/permissioned",
+              "api/experimental/fherc20",
+              "api/experimental/ifherc20"
             ]
           }
         ]
@@ -71,14 +136,19 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "GitHub",
+          "href": "https://github.com/FhenixProtocol",
+          "icon": "github"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Discord",
+          "href": "https://discord.gg/FuVgxrvJMY",
+          "icon": "discord"
+        },
+        {
+          "anchor": "Twitter",
+          "href": "https://twitter.com/FhenixIO",
+          "icon": "twitter"
         }
       ]
     }
@@ -90,15 +160,10 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Website",
+        "href": "https://www.fhenix.io"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
+    ]
   },
   "contextual": {
     "options": [
@@ -114,9 +179,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://twitter.com/FhenixIO",
+      "github": "https://github.com/FhenixProtocol",
+      "discord": "https://discord.gg/FuVgxrvJMY"
     }
   }
 }
