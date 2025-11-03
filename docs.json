@@ -4,47 +4,89 @@
   "name": "Fhenix Documentation",
   "colors": {
     "primary": "#0AD9DC",
-    "light": "#FFFFFF",
-    "dark": "#122531"
+    "light": "#0AD9DC",
+    "dark": "#0AD9DC"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
         "tab": "Get Started",
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Website",
-          "href": "https://www.fhenix.io/",
-          "icon": "globe"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://www.fhenix.io/blog",
-          "icon": "newspaper"
-        }
-      ]
-    },
+            "global": {
+              "anchors": [
+                {
+                  "anchor": "Website",
+                  "href": "https://www.fhenix.io/",
+                  "icon": "globe"
+                },
+                {
+                  "anchor": "Blog",
+                  "href": "https://www.fhenix.io/blog",
+                  "icon": "newspaper"
+                }
+              ]
+            },
         "groups": [
           {
             "group": "Introduction",
             "pages": [
-              "get-started/fhenix"
+              "get-started/introduction/fhenix"
             ]
           },
           {
             "group": "Builder Support",
             "pages": [
-              "get-started/get-funded"
+              "get-started/introduction/get-funded"
             ]
           },
           {
             "group": "Build with AI",
             "pages": [
-              "get-started/build-with-ai",
-              "get-started/ai-assistant"
+              "get-started/build-with-ai/build-with-ai",
+              "get-started/build-with-ai/ai-assistant"
             ]
+          }
+        ]
+      },      {
+        "tab": "Cofhejs",
+            "global": {
+              "anchors": [
+                {
+                  "anchor": "Github",
+                  "href": "https://github.com/FhenixProtocol/cofhejs",
+                  "icon": "github"
+                }
+              ]
+            },
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              "cofhejs/introduction/overview",
+              "cofhejs/introduction/mental-model",
+              "cofhejs/introduction/installation"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "cofhejs/guides/encryption",
+              "cofhejs/guides/permits-management",
+              "cofhejs/guides/sealing-unsealing",
+              "cofhejs/guides/error-handling"
+            ]
+          }, 
+          {
+            "group": "Examples",
+            "pages": [
+              "cofhejs/examples/end-to-end"            
+            ]
+          },
+          {
+            "group": "Resources",
+            "pages": [
+              "cofhejs/resources/templates"
+            ] 
           }
         ]
       },
