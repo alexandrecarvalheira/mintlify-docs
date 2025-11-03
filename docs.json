@@ -34,27 +34,16 @@
             ]
           },
           {
-            "group": "Customization",
+            "group": "Builder Support",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "get-started/get-funded"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Build with AI",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "get-started/build-with-ai",
+              "get-started/ai-assistant"
             ]
           }
         ]
@@ -88,14 +77,15 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Github",
+        "href": "https://github.com/fhenixprotocol/",
+        "icon": "github"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "support",
+      "href": "https://t.me/+OEO4CItQYh8xYzNh"
     }
   },
   "contextual": {
@@ -112,9 +102,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/fhenix",
+      "github": "https://github.com/fhenixprotocol/",
+      "discord": "https://discord.com/invite/FuVgxrvJMY"
     }
   }
 }
