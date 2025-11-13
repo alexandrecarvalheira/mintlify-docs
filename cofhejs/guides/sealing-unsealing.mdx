@@ -81,7 +81,6 @@ const uint16 = await cofhejs.unseal(sealed, FheTypes.Uint16)
 const uint32 = await cofhejs.unseal(sealed, FheTypes.Uint32)
 const uint64 = await cofhejs.unseal(sealed, FheTypes.Uint64)
 const uint128 = await cofhejs.unseal(sealed, FheTypes.Uint128)
-const uint256 = await cofhejs.unseal(sealed, FheTypes.Uint256)
 ```
 
 ```typescript Boolean & Address
@@ -156,7 +155,7 @@ interface UnsealResult {
 ```
 
 The `data` field will contain:
-- **BigInt** for integer types (Uint8, Uint16, Uint32, Uint64, Uint128, Uint256)
+- **BigInt** for integer types (Uint8, Uint16, Uint32, Uint64, Uint128)
 - **boolean** for Bool type
 - **string** (with `0x` prefix) for Address type
 

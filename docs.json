@@ -91,6 +91,57 @@
         ]
       },
       {
+        "tab": "FHE library",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              "fhe-library/introduction/overview",
+              "fhe-library/introduction/quick-start",
+              "fhe-library/introduction/best-practices"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "fhe-library/core-concepts/inputs",
+              "fhe-library/core-concepts/trivial-encryption",
+              "fhe-library/core-concepts/data-evaluation",
+              "fhe-library/core-concepts/encrypted-operations",
+              "fhe-library/core-concepts/conditions",
+              "fhe-library/core-concepts/access-control",
+              "fhe-library/core-concepts/decryption-operations",
+              "fhe-library/core-concepts/randomness",
+              "fhe-library/core-concepts/gas-and-benchmarks"
+            ]
+          },
+          {
+            "group": "Confidential Contracts",
+            "pages": [
+              {
+                "group": "FHERC20",
+                "pages": [
+                  "fhe-library/confidential-contracts/fherc20/overview",
+                  "fhe-library/confidential-contracts/fherc20/core-features",
+                  "fhe-library/confidential-contracts/fherc20/operators",
+                  "fhe-library/confidential-contracts/fherc20/transfer-callbacks",
+                  "fhe-library/confidential-contracts/fherc20/fherc20-permit",
+                  "fhe-library/confidential-contracts/fherc20/fherc20-wrapper",
+                  "fhe-library/confidential-contracts/fherc20/best-practices"
+                ]
+              }
+            ]
+          },
+
+          {
+            "group": "Examples",
+            "pages": [
+              "fhe-library/examples/auction-example"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "API reference",
         "groups": [
           {
@@ -133,13 +184,9 @@
   "contextual": {
     "options": [
      "copy",
-     "view",
      "chatgpt",
      "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
+     "cursor"
    ]
   },
   "footer": {
