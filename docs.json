@@ -30,7 +30,9 @@
           {
             "group": "Introduction",
             "pages": [
-              "get-started/introduction/fhenix"
+              "get-started/introduction/fhenix",
+              "get-started/introduction/compatibility",
+              "get-started/introduction/support-and-feedback"
             ]
           },
           {
@@ -112,7 +114,8 @@
               "fhe-library/core-concepts/access-control",
               "fhe-library/core-concepts/decryption-operations",
               "fhe-library/core-concepts/randomness",
-              "fhe-library/core-concepts/gas-and-benchmarks"
+              "fhe-library/core-concepts/gas-and-benchmarks",
+              "fhe-library/core-concepts/common-errors"
             ]
           },
           {
@@ -138,25 +141,26 @@
             "pages": [
               "fhe-library/examples/auction-example"
             ]
+          },
+          {
+            "group": "Reference",
+            "pages": [
+              "fhe-library/reference/fhe-sol"
+            ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Tutorials",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Tutorials",
             "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "tutorials/overview",
+              "tutorials/your-first-fhe-contract",
+              "tutorials/adding-fhe-to-existing-contract",
+              "tutorials/migrating-to-cofhe",
+              "tutorials/acl-usage-examples"
             ]
           }
         ]
