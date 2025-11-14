@@ -38,7 +38,7 @@
           {
             "group": "Builder Support",
             "pages": [
-              "get-started/introduction/get-funded"
+              "get-started/builder-support/get-funded"
             ]
           },
           {
@@ -161,6 +161,41 @@
               "tutorials/adding-fhe-to-existing-contract",
               "tutorials/migrating-to-cofhe",
               "tutorials/acl-usage-examples"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Deep Dive",
+        "groups":[
+          {
+            "group": "CoFHE Components",
+            "pages": [
+              "deep-dive/cofhe-components/overview",
+              "deep-dive/cofhe-components/task-manager",
+              "deep-dive/cofhe-components/acl",
+              "deep-dive/cofhe-components/aggregator",
+              "deep-dive/cofhe-components/plaintext-storage",
+              "deep-dive/cofhe-components/ct-registry",
+              "deep-dive/cofhe-components/zk-verifier",
+              "deep-dive/cofhe-components/fheos-server",
+              "deep-dive/cofhe-components/threshold-network"
+            ]
+          },
+          {
+            "group": "Data Flows",
+            "pages": [
+              "deep-dive/data-flows/encryption-request-flow",
+              "deep-dive/data-flows/fhe-operation-request-flow",
+              "deep-dive/data-flows/decryption-request-flow",
+              "deep-dive/data-flows/decrypt-from-cofhejs"
+            ]
+          },
+          { 
+            "group": "Research",
+            "pages": [
+              "deep-dive/research/future-plans",
+              "deep-dive/research/research-in-fhenix"
             ]
           }
         ]
